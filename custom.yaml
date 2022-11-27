@@ -1,0 +1,15 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: final/train/  # 118287 images
+val: final/test/  # 5000 images
+test: final/val/
+
+
+# number of classes
+nc:  4
+
+# class names
+names: ["D00", "D10", "D20", "D40"]
